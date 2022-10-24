@@ -1,0 +1,1 @@
+export {default as AksHome} from './AksHome/AksHome';
