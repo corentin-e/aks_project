@@ -1,34 +1,17 @@
 import './aks_home.css'
 import AksMeaux from '../../assets/logos/aks_meaux.png';
 import AksTrilport from '../../assets/logos/aks_trilport.png';
+import KarateIcon from '../../assets/images/karate_icon.png';
 
 const AksHome = () =>  {
     return (
-        <div className='akshome'>
-            <span className='akshome_welcome'>Bienvenue sur </span>
-            <div className='akshome_aks'>
-                <h1>Association</h1>
-                <h1>Karaté</h1>
-                <h1>Shotokan</h1>
+        <div className='akshome_framework'>
+            <div className='akshome_welcome-text'>
+                <h1>L'Association Karaté Shotokan</h1>
+                <h2>Vous souhaite la bienvenue !</h2>
             </div>
-            <span className='akshome_dojo'>Veuillez choisir votre Dojo :</span>
-            <div className='akshome_links'>
-                <div className='akshome_link-aks-meaux'>
-                    <div className='akshome_link-dojo'>
-                        <span>AKS Meaux</span>
-                    </div>
-                    <div className='akshome_description-dojo'>
-                        <span>Description Aks Meaux</span>
-                    </div>
-                </div>
-                <div className='akshome_link-aks-trilport'>
-                    <div className='akshome_link-dojo'> 
-                        <span>AKS Trilport</span>
-                    </div>
-                    <div className='akshome_description-dojo'>
-                        <span>Description Aks Trilport</span>
-                    </div>
-                </div>
+            <div className='akshome_framewor-karate-icon'>
+                <img src={KarateIcon} alt="karate icon"/>
             </div>
         </div>
     );
