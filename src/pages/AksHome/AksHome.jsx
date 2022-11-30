@@ -1,18 +1,18 @@
 import './aks_home.css'
-import AksMeaux from '../../assets/logos/aks_meaux.png';
-import AksTrilport from '../../assets/logos/aks_trilport.png';
-import KarateIcon from '../../assets/images/karate_icon.png';
+import WelcomeImage from '../../assets/images/IMG-20220706-WA0054.jpg'
 
 const AksHome = () =>  {
     return (
-        <div className='akshome_framework'>
-            <div className='akshome_welcome-text'>
-                <h1>L'Association Karaté Shotokan</h1>
-                <h2>Vous souhaite la bienvenue !</h2>
+        <div className='akshome'>
+            <div className='akshome_framework_image'>
+                <img className='akshome_image' src={WelcomeImage} alt="welcome image"/>
             </div>
-            <div className='akshome_framewor-karate-icon'>
-                <img src={KarateIcon} alt="karate icon"/>
+            <div className='akshome_menu'>
+                <div className='akshome_menu_dojo'>
+                
+                </div>
             </div>
+
         </div>
     );
 }

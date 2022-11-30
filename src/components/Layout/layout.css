@@ -1,0 +1,45 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout_head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+}
+
+.layout_club_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 550px;
+    padding: 20px;
+}
+
+.layout_club_name_word {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.layout_club_name_strong_letter {
+    color: #DEB00D;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.layout_club_name_light_letter {
+    color: white;
+    font-size: 40px;
+}
+
+.layout_welcome_message {
+    color: white;
+    font-size: 35px;
+    padding: 30px;
+}
+
