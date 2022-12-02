@@ -1,5 +1,6 @@
 import './aks_home.css'
 import WelcomeImage from '../../assets/images/IMG-20220706-WA0054.jpg'
+import { DojoButton } from '../../components';
 
 const AksHome = () =>  {
     return (
@@ -9,7 +10,10 @@ const AksHome = () =>  {
             </div>
             <div className='akshome_menu'>
                 <div className='akshome_menu_dojo'>
-                
+                    <span className='akshome_question_dojo'>Quel est votre dojo ?</span>
+                    <div className='akshome_buttons_dojo'>
+                        <DojoButton name="Meaux"/>
+                    </div>
                 </div>
             </div>
 

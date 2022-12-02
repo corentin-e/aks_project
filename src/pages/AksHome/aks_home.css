@@ -19,15 +19,33 @@
 
 .akshome_menu {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     width: 50%;
+    background-color: white;
 }
 
 .akshome_menu_dojo {
     display: flex;
     flex-direction: column;
-    background-color: white;
-    height: 100vh;
-    width: 500px;
-    position: fixed;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+}
+
+.akshome_question_dojo {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.akshome_buttons_dojo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    height: 50%;
+    width: 100%;
 }
