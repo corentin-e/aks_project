@@ -29,7 +29,7 @@
 .akshome_menu_dojo {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 60%;
     width: 100%;

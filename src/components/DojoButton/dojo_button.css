@@ -1,0 +1,42 @@
+.dojobutton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 322px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #7C7E83;
+    background-color: transparent;
+    transition: all .3s;
+    overflow: hidden;
+    position: relative;
+    height: 50px;
+    cursor: pointer;
+}
+
+.dojobutton_name {
+    position: absolute;
+    z-index: 2;
+}
+
+
+.dojobutton:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #DEB00D;
+    transition: all .35s;
+}
+
+button:hover {
+    color: #fff;
+}
+
+button:hover:after {
+    width: 100%;
+}

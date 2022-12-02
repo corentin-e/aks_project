@@ -2,9 +2,7 @@ import "./dojo_button.css";
 
 const DojoButton = ({name}) => {
     return (
-        <div className="dojobutton_animation">
-            <button className='dojobutton'>{name}</button>
-        </div>
+        <button className='dojobutton'><span className="dojobutton_name">{name}</span></button>
     );
 }
 export default DojoButton

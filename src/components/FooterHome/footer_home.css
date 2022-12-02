@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_principes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer_principe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.footer_principe_1 {
+    color: #0AAE11;
+    font-size: 25px;
+    margin-left:10px;
+}
