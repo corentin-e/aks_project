@@ -1,23 +1,46 @@
 .footer {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    width: 100%;
 }
 
 .footer_principes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    width: 50%;
 }
 
 .footer_principe {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: flex-end;
 }
 
 .footer_principe_1 {
     color: #0AAE11;
     font-size: 25px;
-    margin-left:10px;
+    margin-left:5px;
+}
+
+.footer_principe_2 {
+    color: #AE0A14;
+    font-size: 25px;
+    margin-left:5px;
+}
+
+.footer_principe_3 {
+    color: #0BB6AB;
+    font-size: 25px;
+    margin-left:5px;
+}
+
+.footer_principe_4 {
+    color: #8B0ED7;
+    font-size: 25px;
+    margin-left:5px;
 }
