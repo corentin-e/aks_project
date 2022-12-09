@@ -1,6 +1,6 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import {AksHome} from './pages';
+import {AksWelcomePage, AksHome} from './pages';
 import {Layout} from './components';
 
 function App() {
@@ -9,7 +9,8 @@ function App() {
       <BrowserRouter>
         <Layout>
           <Routes>
-              <Route path="/" element={<AksHome />}/>
+              <Route path="/" element={<AksWelcomePage />}/>
+              <Route path="/home" element={<AksHome />}/>
           </Routes>
         </Layout>
       </BrowserRouter>
