@@ -3,9 +3,7 @@ import {Link} from "react-router-dom";
 
 const DojoButton = ({name}) => {
     return (
-        <Link to="/Home">
-            <button className='dojobutton'><span className="dojobutton_name">{name}</span></button>
-        </Link>
+        <button className='dojobutton'><span className="dojobutton_name">{name}</span></button>
     );
 }
 export default DojoButton

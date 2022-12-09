@@ -1,4 +1,5 @@
 import './aks_welcome_page.css'
+import { Link } from "react-router-dom";
 import WelcomeImage from '../../assets/images/IMG-20220706-WA0054.jpg'
 import { DojoButton, FooterHome } from '../../components';
 
@@ -12,10 +13,18 @@ const AksWelcomePage = () =>  {
                 <div className='akshome_menu_dojo'>
                     <span className='akshome_question_dojo'>Quel est votre dojo ?</span>
                     <div className='akshome_buttons_dojo'>
-                        <DojoButton name="Meaux"/>
-                        <DojoButton name="Trilport / Changis"/>
-                        <DojoButton name="Lizy / Mary"/>
-                        <DojoButton name="Magny-le-Hongre"/>
+                        <Link to="/meaux">
+                            <DojoButton name="Meaux"/>
+                        </Link>
+                        <Link to="/trilport">
+                            <DojoButton name="Trilport / Changis"/>
+                        </Link>
+                        <Link to="/lizy">
+                            <DojoButton name="Lizy / Mary"/>
+                        </Link>
+                        <Link to="magny">
+                            <DojoButton name="Magny-le-Hongre"/>
+                        </Link>
                     </div>
                     <FooterHome/>
                 </div>
